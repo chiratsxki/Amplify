@@ -1,12 +1,22 @@
-# Getting Started with Create React App
+# Getting Started with Amplify
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Amplify project is a Notes service. Where you can share posts and images
+
+Deployed a React application in the AWS Cloud by integrating with GitHub and using AWS Amplify. With AWS Amplify, you can continuously deploy your application in the cloud and host it on a globally available CDN.
+
+- Authenticate a user with the Amplify CLI and libraries, leveraging Amazon Cognito, a managed user identity service.
+
+- Add an API using the Amplify CLI and libraries. The API is a GraphQL API that uses AWS AppSync (a managed GraphQL service) which is backed by Amazon DynamoDB (a NoSQL 
+  database).
+
+- Use the Amplify CLI and libraries to create a storage service using Amazon S3.
+  Finally, update the React app to enable image uploading, fetching, and rendering. 
 
 ## Available Scripts
 
 In the project directory, you can run:
-
-### `npm start`
+''''
+ npm start
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
