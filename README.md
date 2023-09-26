@@ -36,6 +36,7 @@ amplify add auth
 
 For the rest see `Learn more`
 ##
+Clone this repository.\
 In the project directory, you can run:
 
 ```javascript
